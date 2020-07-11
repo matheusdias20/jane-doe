@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/*Configuração de toda a página*/
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    color: #5a5765;
+}
+
+
+/* Configuração geral do que está dentro do Header */
+header{
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color:#f4f4f4;
+}
+
+header h1{
+    text-transform: uppercase;
+}
+
+/* Configuração das Menu */
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #767b99;
+
+}
+
+nav ul li a:hover{
+    color: white;
+    transition: 0.5s;
+    font-weight: bold;
+    background-color: #547c8d;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+nav ul li .active{
+    color: #547c8d;
+    font-weight: bold;
+    border-bottom: 2px solid #547c8d;
+    border-top: 2px solid #547c8d;
+}
+
+/* ---------------------------- */
+
+section{
+    margin-top: 220px;
+}
+.video1{
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-right: 50px;
+    float: left;
+}
+
+#credito .video2{
+    margin-top: -50px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+#credito{
+    margin-top: 200px;
+}
+
+#credito h2{
+    margin-top: -50px;
+}
+
+
+
+/* Lista das músicas */
+span{
+    color: #f1a230;
+    font-weight: bold;
+}
+ol{
+    margin-top: 110px;
+}
+
+nav ol li{
+    justify-content: center;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    align-items: center;
+}
+
+
+/* Rodapé */
+.footer{
+    margin-top: 100px;
+    width:100%;
+    background-color:#ececec;
+
+}
+
+h6 {
+    text-align: center;
+    margin:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: lighter;
+    
+}
+
+/* Responsive Configuração */
+@media only screen and (min-width: 1348px) {
+    .video1{
+        margin-left: 15%;
+        margin-top: -30px;
+        margin-right: 50px;
+        float: left;
+    }
+
+    #credito .video2{
+        margin-top: -50px;
+        float: left;
+        margin-left: 15%;
+        margin-right: 50px;
+        
+    }
+}
+
+
